@@ -939,7 +939,7 @@ a {
 
 .footer {
   position: relative;
-  margin-top: 45px;
+  /* margin-top: 45px; */
   color: var(--customColor);
 }
 /* 
@@ -988,7 +988,7 @@ a {
 
 .footer .footer-social {
   position: relative;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .footer .footer-social a {
@@ -1013,9 +1013,9 @@ a {
 .footer .copyright {
   position: relative;
   text-align: center;
-  margin-top: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .footer .copyright::before {
