@@ -942,10 +942,10 @@ a {
   margin-top: 45px;
   color: var(--customColor);
 }
-
+/* 
 .footer .container-fluid {
   padding: 60px 0 0 0;
-}
+} */
 
 .footer .footer-info {
   position: relative;
