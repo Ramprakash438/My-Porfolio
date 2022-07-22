@@ -330,6 +330,17 @@ li {
   color: var(--customColor);
 }
 
+.icons a {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  color: #fff;
+}
+
+.icons a:hover i {
+  color: var(--customColor);
+}
+
 @media only screen and (max-width: 967px) {
   .icons {
     display: none;
@@ -458,7 +469,7 @@ li {
 .left img {
   height: 40rem;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .right h1 {
