@@ -260,7 +260,7 @@ li {
 }
 
 .hero a:hover {
-  background-color: transparent;
+  background-color: black;
 }
 
 @media only screen and (max-width:1200px) {
@@ -661,10 +661,12 @@ a.btn:active,
   position: relative;
   width: 100%;
   overflow: hidden;
+  display: grid;
 }
 
 .blog .blog-img img {
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
   transition: .5s;
 }
 
